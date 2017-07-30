@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 
-# This is my first script.
-
-print "Hello Python"
-
 import time
+import AWSIoTPythonSDK
 
 try:
     import RPi.GPIO as GPIO
